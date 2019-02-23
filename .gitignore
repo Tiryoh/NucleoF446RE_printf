@@ -1,0 +1,149 @@
+*.bin
+*.elf
+*.hex
+*.ld
+
+## https://raw.githubusercontent.com/mrshrdlu/gitignore-keil/master/keil.gitignore
+# A .gitignore for Keil projects.
+# Taken mostly from http://www.keil.com/support/man/docs/uv4/uv4_b_filetypes.htm
+
+# User-specific uVision files
+*.opt
+*.uvopt
+*.uvoptx
+*.uvgui
+*.uvgui.*
+*.uvguix.*
+
+# Listing files
+*.cod
+*.htm
+*.i
+*.lst
+*.map
+*.m51
+*.m66
+*.scr  	# define exception below if needed
+
+# Object and HEX files
+*.axf
+*.b[0-3][0-9]
+*.hex
+*.d
+*.crf
+*.elf
+*.hex
+*.h86
+*.lib
+*.obj
+*.o
+*.sbr
+
+# Build files
+*.bat  	# define exception below if needed
+*._ia
+*.__i
+*._ii
+
+# Generated output files
+/Listings/*
+/Objects/*
+
+# Debugger files
+*.ini  	# define exception below if needed
+
+# Other files
+*.build_log.htm
+*.cdb
+*.dep
+*.ic
+*.lin
+*.lnp
+*.orc
+*.pack 	# define exception below if needed
+*.pdsc 	# define exception below if needed
+*.plg
+*.sct  	# define exception below if needed
+*.sfd
+*.sfr
+
+# Miscellaneous
+*.tra
+*.bin
+*.fed
+*.l1p
+*.l2p
+*.iex
+
+# To explicitly override the above, define any exceptions here; e.g.:
+# !my_customized_scatter_file.sct
+
+
+
+### https://raw.github.com/github/gitignore/210c95bb02f629e5166c21e888b10d0c26442fe7/C++.gitignore
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+### https://raw.github.com/github/gitignore/210c95bb02f629e5166c21e888b10d0c26442fe7/Global/macOS.gitignore
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+
