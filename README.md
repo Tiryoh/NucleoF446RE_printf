@@ -2,7 +2,7 @@
 
 uVision5 project template of mbed NucleoF446RE
 
-how to fix defailt template: [diff](https://github.com/Tiryoh/NucleoF446RE_printf/commit/26e5a1da5bafe7adbdcb665105fad6f92db0f514)
+how to fix default template: [diff](https://github.com/Tiryoh/NucleoF446RE_printf/commit/26e5a1da5bafe7adbdcb665105fad6f92db0f514)
 
 ## Requirements
 
